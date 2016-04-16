@@ -1,0 +1,4 @@
+Het programma heeft toegang tot:
+- Een lcd display (16 breed, 2 hoog)
+- Knoppen
+- Een motorreggeling
