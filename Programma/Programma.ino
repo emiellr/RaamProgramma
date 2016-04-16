@@ -25,10 +25,15 @@ byte arrowDown[8] = { // Arrow down
 
 void setup() {
   lcd.begin(16, 2);
-  lcd.createChar(0, arrowUp);
+  lcd.createChar(0, arrowUp); //Maakt een character met identifier 0 en de volgende 1
   lcd.createChar(1, arrowDown);
   lcd.clear();
-  pinMode(13, OUTPUT);
+  pinMode(13, INPUT);
+  pinMode(10, INPUT);
+  pinMode(6, OUTPUT);
+  pinMode(7, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(9, OUTPUT);
   menu();
 }
 
