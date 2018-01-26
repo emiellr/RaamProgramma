@@ -33,7 +33,7 @@ void setup() {
 }
 
 void loop() {
-  
+
 }
 
 void menu() {
@@ -45,4 +45,4 @@ void menu() {
   lcd.write((uint8_t)1);
   lcd.print("Omlaag");
 }
-
+//Kleine aanpassing voor commit test
